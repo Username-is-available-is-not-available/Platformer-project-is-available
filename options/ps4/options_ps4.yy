@@ -1,7 +1,4 @@
 {
-  "resourceType": "GMPS4Options",
-  "resourceVersion": "1.0",
-  "name": "PlayStation 4",
   "option_ps4_package_id": "IV0002-NPXS29129_00-APP0990000000022",
   "option_ps4_passcode": "GvE6xCpZxd96scOUGuLPbuLp8O800B0s",
   "option_ps4_nptitleid": "",
@@ -32,4 +29,8 @@
   "option_ps4_garlic": 1024,
   "option_ps4_neo_onion": 2048,
   "option_ps4_neo_garlic": 1536,
+  "resourceVersion": "1.0",
+  "name": "PlayStation 4",
+  "tags": [],
+  "resourceType": "GMPS4Options",
 }
