@@ -9,7 +9,10 @@
   "solid": false,
   "visible": true,
   "managed": true,
-  "spriteMaskId": null,
+  "spriteMaskId": {
+    "name": "spr_slime",
+    "path": "sprites/spr_slime/spr_slime.yy",
+  },
   "persistent": false,
   "parentObjectId": null,
   "physicsObject": false,

@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "obj_invis_wall",
   "spriteId": {
-    "name": "spr_invis_wall",
-    "path": "sprites/spr_invis_wall/spr_invis_wall.yy",
+    "name": "spr_invis_wall_smol",
+    "path": "sprites/spr_invis_wall_smol/spr_invis_wall_smol.yy",
   },
   "solid": false,
   "visible": true,

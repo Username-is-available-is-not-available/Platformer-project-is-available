@@ -2,9 +2,9 @@
 //
 hsp = 0;
 vsp = 0;
-grav = 1;
+grav = 0.3;
 walksp = 4;
-jumpsp = 18;
+jumpsp = 9;
 
 
 
