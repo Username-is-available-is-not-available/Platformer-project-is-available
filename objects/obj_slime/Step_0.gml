@@ -43,22 +43,25 @@ y = y + vsp;
 
 
 //Animation
-if (!place_meeting(x, y + 1, obj_invis_wall))
+if (! place_meeting( x, y + 1, obj_invis_wall))
 {
 	sprite_index = spr_slime_jump;
 	image_speed = 0;
-	if(vsp > 0) image_index = 1; else image_index = 0
+	if(vsp = 0) image_index = 1; 
+	else image_index = 1;
+}
+else
 {
-	else
-{
-	image_speed = 0
-	if(hsp == 0)
+	image_speed = 1;
+	if (hsp == 0)
 	{
 		sprite_index = spr_slime;
 	}
 	else
 	{
-		sprite_index = spr_slimeeyeswalk;
+		sprite_index = spr_slimewalk;
 	}
 }
-}
+
+if (hsp != 0) image_xscale = sign(hsp);
+

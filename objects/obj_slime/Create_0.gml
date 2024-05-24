@@ -3,8 +3,8 @@
 hsp = 0;
 vsp = 0;
 grav = 0.3;
-walksp = 4;
-jumpsp = 9;
+walksp = 6;
+jumpsp = 10;
 
 
 
