@@ -47,7 +47,7 @@ if (! place_meeting( x, y + 1, obj_invis_wall))
 {
 	sprite_index = spr_slime_jump;
 	image_speed = 0;
-	if(vsp = 0) image_index = 1; 
+	if(vsp < 0) image_index = 0; 
 	else image_index = 1;
 }
 else
