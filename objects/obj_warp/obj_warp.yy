@@ -1,20 +1,19 @@
 {
   "$GMObject":"",
-  "%Name":"obj_slime",
+  "%Name":"obj_warp",
   "eventList":[
+    {"$GMEvent":"","%Name":"","collisionObjectId":{"name":"obj_slime","path":"objects/obj_slime/obj_slime.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":32,"eventType":9,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_slime",
+  "name":"obj_warp",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
     "path":"folders/Objects.yy",
   },
   "parentObjectId":null,
-  "persistent":true,
+  "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
   "physicsFriction":0.2,
@@ -30,14 +29,11 @@
   "properties":[],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
-  "solid":true,
+  "solid":false,
   "spriteId":{
-    "name":"spr_slime",
-    "path":"sprites/spr_slime/spr_slime.yy",
+    "name":"spr_portal",
+    "path":"sprites/spr_portal/spr_portal.yy",
   },
-  "spriteMaskId":{
-    "name":"spr_slime",
-    "path":"sprites/spr_slime/spr_slime.yy",
-  },
+  "spriteMaskId":null,
   "visible":true,
 }

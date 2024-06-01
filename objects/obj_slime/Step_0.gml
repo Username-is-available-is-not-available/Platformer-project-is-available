@@ -11,20 +11,33 @@ var _move = key_right - key_left;
 hsp = _move * walksp;
 
 vsp = vsp + grav;
-	if (airjump > 0)
+
+//Left Wall Jump
+if (place_meeting(x-1, y, obj_invis_wall) & !place_meeting(x, y+1, obj_invis_wall) & !key_right)
+	vsp = -jumpsp; 
+
+//Right Wall Jump
+if (place_meeting(x+1, y, obj_invis_wall) & !place_meeting(x, y+1, obj_invis_wall) & !key_left)
+	vsp = -jumpsp; 
+
+// Check Airjump	
+if (airjump > 0)
+{
+	if (key_jump)
 	{
-		if (key_jump)
-		{
-			vsp = -airjsp;
-			airjump -= 1;
-		}
+		vsp = -airjsp;
+		airjump -= 1;
 	}
+}
 if(place_meeting(x, y+1, obj_invis_wall)) & (key_jump)
 {
-	airjump = 3;
+	airjump = 2;
 	vsp = -jumpsp;
 }
-
+if vsp < jumpsp
+{
+	 audio_play_sound (snd_slime_jump, 5, false)
+}
 
 //Horizantal Collision
 if (place_meeting(x + hsp, y, obj_invis_wall))
