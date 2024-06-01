@@ -5,6 +5,8 @@ vsp = 0;
 grav = 0.3;
 walksp = 6;
 jumpsp = 10;
+airjump = 3;
+airjsp = 12;
 
 
 

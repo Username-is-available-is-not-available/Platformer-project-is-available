@@ -11,9 +11,17 @@ var _move = key_right - key_left;
 hsp = _move * walksp;
 
 vsp = vsp + grav;
-
+	if (airjump > 0)
+	{
+		if (key_jump)
+		{
+			vsp = -airjsp;
+			airjump -= 1;
+		}
+	}
 if(place_meeting(x, y+1, obj_invis_wall)) & (key_jump)
 {
+	airjump = 3;
 	vsp = -jumpsp;
 }
 
