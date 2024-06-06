@@ -1,5 +1,3 @@
-
-
 /// @desc Core Player Logic
 
 //  Get Player Input
@@ -29,24 +27,15 @@ if (airjump > 0)
 	{
 		vsp = -airjsp;
 		airjump -= 1;
-<<<<<<< HEAD
+
 		audio_play_sound (snd_jump, 1, false)
-=======
->>>>>>> c91fbf301a74965ab28977377fc8008841fc5087
+
 	}
 }
 if(place_meeting(x, y+1, obj_invis_wall)) & (key_jump)
 {
 	airjump = 2;
-	vsp = -jumpsp;
-<<<<<<< HEAD
-
-=======
-}
-if vsp < jumpsp
-{
-	 audio_play_sound (snd_slime_jump, 5, false)
->>>>>>> c91fbf301a74965ab28977377fc8008841fc5087
+	vsp = -jumpsp;	
 }
 
 //Horizantal Collision
