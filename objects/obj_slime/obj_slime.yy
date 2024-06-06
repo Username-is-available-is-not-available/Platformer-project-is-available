@@ -13,7 +13,7 @@
     "name": "spr_slime",
     "path": "sprites/spr_slime/spr_slime.yy",
   },
-  "persistent": true,
+  "persistent": false,
   "parentObjectId": null,
   "physicsObject": false,
   "physicsSensor": false,

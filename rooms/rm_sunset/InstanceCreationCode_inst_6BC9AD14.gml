@@ -1,3 +1,3 @@
 targetRoom = rm_night;
-targetX = 1250
-targetY = 450
+targetX = 315
+targetY = 960

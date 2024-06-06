@@ -1,3 +1,3 @@
 targetRoom = rm_day;
-targetX = 1250
-targetY = 450
+targetX = 3915
+targetY = 830
